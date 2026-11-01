@@ -2,7 +2,7 @@
 
 ## When to use this workflow
 
-Follow this file when João provides a screenshot, link or solution to add or update in this repository. Keep all repository documentation, filenames and commit messages in English. Respond to João in Portuguese unless requested otherwise. João writes the solutions: preserve his submitted code rather than solving, rewriting or optimizing it without a request.
+Follow this file when João provides a screenshot, link or solution to add or update in this repository. João writes the solutions: preserve his submitted code rather than solving, rewriting or optimizing it without a request.
 
 ## 1. Collect and verify the evidence
 
@@ -36,7 +36,7 @@ Search stats.json and the directories for the public ID/canonical URL before cre
 
 ## 3. Save the solution and statement
 
-Preserve the complete accepted source exactly, including João's comments. Do not insert code from another source, imports or formatting changes without a request. Keep authored repository prose in English; if João supplies Portuguese notes or comments, request or obtain authorization for a faithful translation instead of silently changing his submitted code or study notes.
+Preserve the complete accepted source exactly, including João's comments. Do not insert code from another source, imports or formatting changes without a request.
 
 Use this header in the problem README:
 <h2><a href="<canonical-url>"><public-id>. <title></a></h2>
