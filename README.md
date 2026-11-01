@@ -1,13 +1,14 @@
-# LeetCode Solutions
+# Algorithms and Data Structures
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
 ![LeetHub](https://img.shields.io/badge/Synced%20with-LeetHub-2ea44f?style=for-the-badge&logo=github&logoColor=white)
 
-My personal collection of LeetCode solutions, written while I study data structures and algorithms.
+My personal collection of algorithm and data structure solutions, starting with LeetCode in Java and Python and expanding toward C++ and competitive programming.
 
-This repository is **fully automated**: every accepted submission on LeetCode is pushed here by [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0) — no manual edits.
+LeetCode submissions are synced here by [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0). The study goals and introductory sections of this README are maintained manually.
 
 ## 🎯 Goals
 
@@ -15,22 +16,43 @@ This repository is **fully automated**: every accepted submission on LeetCode is
 - Learn to recognize **common patterns** (hashing, two pointers, sliding window, etc.) instead of memorizing answers.
 - Always start with a **brute-force solution**, then look for a better one.
 - Prepare for **technical interviews** and coding assessments.
+- Gradually build a foundation for **competitive programming** with C++.
 
 ## 🛠️ Languages
 
 | Language | Why I use it |
 |---|---|
-| **Python** | Concise syntax — great for focusing on the logic of the algorithm. |
-| **Java** | Strong typing and explicit structure — great for practicing the language used in many interviews. |
+| **Python** | Earlier solutions, preserved as part of my learning history. |
+| **Java** | Current language for daily LeetCode practice and interview preparation. |
+| **C++** | Independent study track, with future use in competitive programming. |
 
-Some problems are solved in both languages, so the two versions can be compared side by side.
+Some existing problems are solved in both Java and Python, so the two versions can be compared side by side. C++ solutions will be added as my studies progress.
+
+## 📅 Study Plan
+
+- **November 2026:** LeetCode every day in **Java**.
+- **C++:** study the language independently, in separate sessions, while continuing daily LeetCode practice.
+- **After learning C++ fundamentals:** gradually introduce [CSES](https://cses.fi/problemset/), [Codeforces](https://codeforces.com/) and [AtCoder](https://atcoder.jp/), then divide practice time between platforms.
+
+These competitive programming platforms are planned stages; their solutions are not yet included here.
+
+## 📚 How I Study
+
+1. Understand the problem, constraints and examples before coding.
+2. Try independently for **20–30 minutes**, starting with a straightforward solution.
+3. Use [NeetCode](https://neetcode.io/) when I need an explanation of a concept, pattern or approach.
+4. Implement again **without copying** after consulting an explanation.
+5. Analyze **time and space complexity** and test edge cases.
+6. Revisit problems where I needed help.
+
+I use AI as a mentor for hints, questions and code reviews. A problem is complete when I can explain the approach and implement it independently.
 
 ## 📁 Repository Structure
 
-Each problem gets its own folder, created automatically by LeetHub:
+Each LeetCode problem currently gets its own folder at the repository root, created automatically by LeetHub:
 
 ```
-leetcode/
+algorithms-and-data-structures/
 ├── README.md
 ├── stats.json             ← progress data used by LeetHub
 ├── 0001-two-sum/
@@ -39,6 +61,8 @@ leetcode/
 │   └── 0001-two-sum.py    ← Python solution (when available)
 └── ...
 ```
+
+C++ exercises and future platform solutions will be organized separately when added. Before moving existing problem folders, the LeetHub configuration needs to be checked for compatibility with the renamed repository and the intended destination.
 
 ## 📊 Solved Problems by Topic
 
@@ -51,73 +75,73 @@ The list below is generated and updated automatically by LeetHub.
 ## Array
 |  |
 | ------- |
-| [0001-two-sum](https://github.com/jg-abreu/leetcode/tree/master/0001-two-sum) |
-| [0049-group-anagrams](https://github.com/jg-abreu/leetcode/tree/master/0049-group-anagrams) |
-| [0128-longest-consecutive-sequence](https://github.com/jg-abreu/leetcode/tree/master/0128-longest-consecutive-sequence) |
-| [0169-majority-element](https://github.com/jg-abreu/leetcode/tree/master/0169-majority-element) |
-| [0217-contains-duplicate](https://github.com/jg-abreu/leetcode/tree/master/0217-contains-duplicate) |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0001-two-sum](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
 ## Hash Table
 |  |
 | ------- |
-| [0001-two-sum](https://github.com/jg-abreu/leetcode/tree/master/0001-two-sum) |
-| [0049-group-anagrams](https://github.com/jg-abreu/leetcode/tree/master/0049-group-anagrams) |
-| [0128-longest-consecutive-sequence](https://github.com/jg-abreu/leetcode/tree/master/0128-longest-consecutive-sequence) |
-| [0169-majority-element](https://github.com/jg-abreu/leetcode/tree/master/0169-majority-element) |
-| [0217-contains-duplicate](https://github.com/jg-abreu/leetcode/tree/master/0217-contains-duplicate) |
-| [0242-valid-anagram](https://github.com/jg-abreu/leetcode/tree/master/0242-valid-anagram) |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
-| [0383-ransom-note](https://github.com/jg-abreu/leetcode/tree/master/0383-ransom-note) |
-| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0001-two-sum](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0387-first-unique-character-in-a-string) |
 ## Sorting
 |  |
 | ------- |
-| [0049-group-anagrams](https://github.com/jg-abreu/leetcode/tree/master/0049-group-anagrams) |
-| [0169-majority-element](https://github.com/jg-abreu/leetcode/tree/master/0169-majority-element) |
-| [0217-contains-duplicate](https://github.com/jg-abreu/leetcode/tree/master/0217-contains-duplicate) |
-| [0242-valid-anagram](https://github.com/jg-abreu/leetcode/tree/master/0242-valid-anagram) |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0049-group-anagrams](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
-| [0049-group-anagrams](https://github.com/jg-abreu/leetcode/tree/master/0049-group-anagrams) |
-| [0242-valid-anagram](https://github.com/jg-abreu/leetcode/tree/master/0242-valid-anagram) |
-| [0383-ransom-note](https://github.com/jg-abreu/leetcode/tree/master/0383-ransom-note) |
-| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0049-group-anagrams](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0049-group-anagrams) |
+| [0242-valid-anagram](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0387-first-unique-character-in-a-string) |
 ## Counting
 |  |
 | ------- |
-| [0169-majority-element](https://github.com/jg-abreu/leetcode/tree/master/0169-majority-element) |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
-| [0383-ransom-note](https://github.com/jg-abreu/leetcode/tree/master/0383-ransom-note) |
-| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0169-majority-element](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0387-first-unique-character-in-a-string) |
 ## Queue
 |  |
 | ------- |
-| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0387-first-unique-character-in-a-string) |
 ## Divide and Conquer
 |  |
 | ------- |
-| [0169-majority-element](https://github.com/jg-abreu/leetcode/tree/master/0169-majority-element) |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0169-majority-element](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
 | ------- |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
 | ------- |
-| [0347-top-k-frequent-elements](https://github.com/jg-abreu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0347-top-k-frequent-elements](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0347-top-k-frequent-elements) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
-| [0169-majority-element](https://github.com/jg-abreu/leetcode/tree/master/0169-majority-element) |
+| [0169-majority-element](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0169-majority-element) |
 ## Union-Find
 |  |
 | ------- |
-| [0128-longest-consecutive-sequence](https://github.com/jg-abreu/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0128-longest-consecutive-sequence](https://github.com/jg-abreu/algorithms-and-data-structures/tree/main/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
