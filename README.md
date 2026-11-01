@@ -30,44 +30,38 @@ Some existing problems are solved in both Java and Python, so the two versions c
 
 ## 📁 Repository Structure
 
-The repository currently contains the following LeetCode problem folders and files:
+Planned organization for LeetCode practice, independent C++ studies and future competitive programming solutions:
 
 ```text
 algorithms-and-data-structures/
 ├── README.md
-├── stats.json
-├── 0001-two-sum/
+├── .gitignore
+├── leetcode/
 │   ├── README.md
-│   ├── 0001-two-sum.java
-│   └── 0001-two-sum.py
-├── 0049-group-anagrams/
-│   ├── README.md
-│   └── 0049-group-anagrams.java
-├── 0128-longest-consecutive-sequence/
-│   ├── README.md
-│   └── 0128-longest-consecutive-sequence.java
-├── 0169-majority-element/
-│   ├── README.md
-│   └── 0169-majority-element.py
-├── 0217-contains-duplicate/
-│   ├── README.md
-│   ├── 0217-contains-duplicate.java
-│   └── 0217-contains-duplicate.py
-├── 0242-valid-anagram/
-│   ├── README.md
-│   └── 0242-valid-anagram.java
-├── 0347-top-k-frequent-elements/
-│   ├── README.md
-│   └── 0347-top-k-frequent-elements.java
-├── 0383-ransom-note/
-│   ├── README.md
-│   └── 0383-ransom-note.java
-└── 0387-first-unique-character-in-a-string/
-    ├── README.md
-    └── 0387-first-unique-character-in-a-string.java
+│   ├── stats.json
+│   └── <problem-id>-<problem-name>/
+│       ├── README.md
+│       ├── <problem-id>-<problem-name>.java
+│       └── <problem-id>-<problem-name>.py
+├── cpp/
+│   └── <course-topic>/
+│       └── <exercise>.cpp
+├── cses/
+│   └── <category>/
+│       └── <problem>.cpp
+├── codeforces/
+│   └── <contest-id>/
+│       └── <problem-letter>.cpp
+└── atcoder/
+    └── <contest-id>/
+        └── <problem-letter>.cpp
 ```
 
-Each problem folder contains its statement (`README.md`) and the available Java or Python solutions. `stats.json` stores progress data used by LeetHub.
+- **leetcode/** — LeetCode solutions, primarily in Java, with earlier Python solutions preserved where available.
+- **cpp/** — independent C++ course exercises, organized by topic.
+- **cses/**, **codeforces/** and **atcoder/** — future competitive programming solutions, added as those stages begin.
+
+This structure is planned and has not yet been applied. Existing LeetCode folders remain at the root until the LeetHub destination configuration is checked. NeetCode is a learning resource; solutions stay with their original platform.
 
 ## 📊 Solved Problems by Topic
 
