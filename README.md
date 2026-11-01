@@ -30,38 +30,43 @@ Some existing problems are solved in both Java and Python, so the two versions c
 
 ## 📁 Repository Structure
 
-Planned organization for LeetCode practice, independent C++ studies and future competitive programming solutions:
+Planned organization by platform:
 
 ```text
 algorithms-and-data-structures/
 ├── README.md
 ├── .gitignore
 ├── leetcode/
-│   ├── README.md
-│   ├── stats.json
 │   └── <problem-id>-<problem-name>/
 │       ├── README.md
-│       ├── <problem-id>-<problem-name>.java
-│       └── <problem-id>-<problem-name>.py
-├── cpp/
-│   └── <course-topic>/
-│       └── <exercise>.cpp
+│       ├── solution.java
+│       ├── solution.py
+│       └── solution.cpp
 ├── cses/
-│   └── <category>/
-│       └── <problem>.cpp
+│   └── <problem-id>-<problem-name>/
+│       ├── README.md
+│       ├── solution.java
+│       ├── solution.py
+│       └── solution.cpp
 ├── codeforces/
-│   └── <contest-id>/
-│       └── <problem-letter>.cpp
+│   └── <problem-id>-<problem-name>/
+│       ├── README.md
+│       ├── solution.java
+│       ├── solution.py
+│       └── solution.cpp
 └── atcoder/
-    └── <contest-id>/
-        └── <problem-letter>.cpp
+    └── <problem-id>-<problem-name>/
+        ├── README.md
+        ├── solution.java
+        ├── solution.py
+        └── solution.cpp
 ```
 
-- **leetcode/** — LeetCode solutions, primarily in Java, with earlier Python solutions preserved where available.
-- **cpp/** — independent C++ course exercises, organized by topic.
-- **cses/**, **codeforces/** and **atcoder/** — future competitive programming solutions, added as those stages begin.
+Each platform folder groups its problems. The Java, Python and C++ files illustrate the supported solution formats; a problem only needs the languages actually used to solve it. LeetHub progress data (`stats.json`) belongs with the LeetCode content once its synchronization destination is configured.
 
-This structure is planned and has not yet been applied. Existing LeetCode folders remain at the root until the LeetHub destination configuration is checked. NeetCode is a learning resource; solutions stay with their original platform.
+Independent C++ course exercises belong in [Daily Learning Log](https://github.com/jg-abreu/daily-learning-log).
+
+This structure is planned and has not yet been applied. Existing problem folders remain at the root until the LeetHub destination configuration is checked.
 
 ## 📊 Solved Problems by Topic
 
