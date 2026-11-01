@@ -28,17 +28,6 @@ LeetCode submissions are synced here by [LeetHub v2](https://github.com/arunbhar
 
 Some existing problems are solved in both Java and Python, so the two versions can be compared side by side. C++ solutions will be added as my studies progress.
 
-## 📚 How I Study
-
-1. Understand the problem, constraints and examples before coding.
-2. Try independently for **20–30 minutes**, starting with a straightforward solution.
-3. Use [NeetCode](https://neetcode.io/) when I need an explanation of a concept, pattern or approach.
-4. Implement again **without copying** after consulting an explanation.
-5. Analyze **time and space complexity** and test edge cases.
-6. Revisit problems where I needed help.
-
-I use AI as a mentor for hints, questions and code reviews. A problem is complete when I can explain the approach and implement it independently.
-
 ## 📁 Repository Structure
 
 Each LeetCode problem currently gets its own folder at the repository root, created automatically by LeetHub:
