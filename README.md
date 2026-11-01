@@ -30,20 +30,44 @@ Some existing problems are solved in both Java and Python, so the two versions c
 
 ## 📁 Repository Structure
 
-Each LeetCode problem currently gets its own folder at the repository root, created automatically by LeetHub:
+The repository currently contains the following LeetCode problem folders and files:
 
-```
+```text
 algorithms-and-data-structures/
 ├── README.md
-├── stats.json             ← progress data used by LeetHub
+├── stats.json
 ├── 0001-two-sum/
-│   ├── README.md          ← problem statement
-│   ├── 0001-two-sum.java  ← Java solution
-│   └── 0001-two-sum.py    ← Python solution (when available)
-└── ...
+│   ├── README.md
+│   ├── 0001-two-sum.java
+│   └── 0001-two-sum.py
+├── 0049-group-anagrams/
+│   ├── README.md
+│   └── 0049-group-anagrams.java
+├── 0128-longest-consecutive-sequence/
+│   ├── README.md
+│   └── 0128-longest-consecutive-sequence.java
+├── 0169-majority-element/
+│   ├── README.md
+│   └── 0169-majority-element.py
+├── 0217-contains-duplicate/
+│   ├── README.md
+│   ├── 0217-contains-duplicate.java
+│   └── 0217-contains-duplicate.py
+├── 0242-valid-anagram/
+│   ├── README.md
+│   └── 0242-valid-anagram.java
+├── 0347-top-k-frequent-elements/
+│   ├── README.md
+│   └── 0347-top-k-frequent-elements.java
+├── 0383-ransom-note/
+│   ├── README.md
+│   └── 0383-ransom-note.java
+└── 0387-first-unique-character-in-a-string/
+    ├── README.md
+    └── 0387-first-unique-character-in-a-string.java
 ```
 
-C++ exercises and future platform solutions will be organized separately when added. Before moving existing problem folders, the LeetHub configuration needs to be checked for compatibility with the renamed repository and the intended destination.
+Each problem folder contains its statement (`README.md`) and the available Java or Python solutions. `stats.json` stores progress data used by LeetHub.
 
 ## 📊 Solved Problems by Topic
 
