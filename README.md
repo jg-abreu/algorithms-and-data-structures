@@ -28,14 +28,6 @@ LeetCode submissions are synced here by [LeetHub v2](https://github.com/arunbhar
 
 Some existing problems are solved in both Java and Python, so the two versions can be compared side by side. C++ solutions will be added as my studies progress.
 
-## 📅 Study Plan
-
-- **November 2026:** LeetCode every day in **Java**.
-- **C++:** study the language independently, in separate sessions, while continuing daily LeetCode practice.
-- **After learning C++ fundamentals:** gradually introduce [CSES](https://cses.fi/problemset/), [Codeforces](https://codeforces.com/) and [AtCoder](https://atcoder.jp/), then divide practice time between platforms.
-
-These competitive programming platforms are planned stages; their solutions are not yet included here.
-
 ## 📚 How I Study
 
 1. Understand the problem, constraints and examples before coding.
