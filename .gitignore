@@ -1,0 +1,10 @@
+*.class
+*.o
+*.obj
+*.exe
+*.out
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.DS_Store
