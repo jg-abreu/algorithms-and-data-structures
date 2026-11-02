@@ -17,6 +17,18 @@ Accepted submissions are recorded from screenshots, submission links and the com
 - Prepare for **technical interviews** and coding assessments.
 - Gradually build a foundation for **competitive programming** with C++.
 
+## 🧠 Study Workflow
+
+I choose problems from [NeetCode](https://neetcode.io/). Before starting, I check the platform index to see whether I have already solved the problem and review the existing record when revisiting it or practicing another language.
+
+1. **Try independently for up to 30 minutes:** understand the statement, work through examples and develop an approach, starting with brute force.
+2. **Ask for a small hint if stuck:** use a gradual hint from Claude, then try again for **10–15 minutes**.
+3. **Discuss the reasoning if still stuck:** work through the approach step by step, with one question at a time. I write the solution; complete code is provided only if I explicitly request it.
+4. **Review the solution:** explain the approach, analyze time and space complexity, and check edge cases before submitting.
+5. **Submit and record:** after Accepted/AC, provide the complete submitted code and acceptance evidence, then follow [AGENTS.md](AGENTS.md) to record the solution and update indexes and totals.
+
+The 30-minute mark is a checkpoint: if I am making progress, I can continue; if I am repeating the same unsuccessful attempt, I can ask for help earlier.
+
 ## 🛠️ Languages
 
 | Language | Why I use it |
