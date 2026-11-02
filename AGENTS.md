@@ -96,6 +96,8 @@ or Update <platform> <problem-id>: <title> (<language>).
 
 In the commit body, include platform, public ID, language and submission URL when available. For documentation-only changes, use docs: <description>. For standalone statistics updates, use Update stats. For notes-only changes, use Attach notes - <platform> <problem-id>.
 
+Do not add co-author trailers (such as Co-Authored-By), session links or other tool attribution lines to commit messages.
+
 An explicit request to add or update a submission authorizes the related files and commit. A screenshot without a clear request requires asking whether João wants it recorded. Check the session's publication authorization; if absent, prepare a reviewable change before requesting final approval. Use the task's current branch and never force-push. Read HEAD again before publishing; if it changed, reconcile while preserving other contributors' work.
 
 ## 6. Verify and report
