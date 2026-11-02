@@ -35,7 +35,6 @@ Problems are organized by platform. Each problem contains its statement and the 
 algorithms-and-data-structures/
 ├── README.md
 ├── AGENTS.md
-├── stats.json
 ├── .gitignore
 ├── leetcode/
 │   ├── README.md
@@ -67,9 +66,11 @@ algorithms-and-data-structures/
         └── <task-id>-<problem-name>.cpp
 ```
 
-The three extensions illustrate possible solutions; files are added only when a solution exists. New submissions also include `submission.json` with verified metadata and optional `NOTES.md` supplied by me. Independent C++ course exercises belong in [Daily Learning Log](https://github.com/jg-abreu/daily-learning-log).
+The three extensions illustrate possible solutions; files are added only when a solution exists. Each problem directory contains only its README and solution files named after the directory. The README holds verified submission statistics, evidence, official topics and any notes supplied by me. Independent C++ course exercises belong in [Daily Learning Log](https://github.com/jg-abreu/daily-learning-log).
 
 See [AGENTS.md](AGENTS.md) for the submission workflow, naming rules, commit messages and index updates.
+
+Submission statistics are recorded in each problem README. Platform READMEs keep the problem indexes; the totals below are recalculated from evidenced accepted solutions and count each problem once, regardless of language or repeated submissions. Historical metrics cite the original LeetHub commits; commit dates are not treated as submission dates.
 
 ## 📊 Progress
 
@@ -80,6 +81,7 @@ See [AGENTS.md](AGENTS.md) for the submission workflow, naming rules, commit mes
 | [cses](cses/README.md) | 0 | 0 | 0 | 0 | 0 |
 | [codeforces](codeforces/README.md) | 0 | 0 | 0 | 0 | 0 |
 | [atcoder](atcoder/README.md) | 0 | 0 | 0 | 0 | 0 |
+| **Total** | **9** | **6** | **3** | **0** | **0** |
 <!-- PROGRESS:END -->
 
 ## 📊 Solved Problems by Topic
@@ -99,6 +101,26 @@ The index below groups problems by their official platform topics. A topic label
 | [0169-majority-element](leetcode/0169-majority-element) |
 | [0217-contains-duplicate](leetcode/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
+#### Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](leetcode/0169-majority-element) |
+#### Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
+#### Counting
+|  |
+| ------- |
+| [0169-majority-element](leetcode/0169-majority-element) |
+| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
+| [0383-ransom-note](leetcode/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
+#### Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](leetcode/0169-majority-element) |
+| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
 #### Hash Table
 |  |
 | ------- |
@@ -111,6 +133,18 @@ The index below groups problems by their official platform topics. A topic label
 | [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
 | [0383-ransom-note](leetcode/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
+#### Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
+#### Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
+#### Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
 #### Sorting
 |  |
 | ------- |
@@ -126,38 +160,6 @@ The index below groups problems by their official platform topics. A topic label
 | [0242-valid-anagram](leetcode/0242-valid-anagram) |
 | [0383-ransom-note](leetcode/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
-#### Counting
-|  |
-| ------- |
-| [0169-majority-element](leetcode/0169-majority-element) |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-| [0383-ransom-note](leetcode/0383-ransom-note) |
-| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
-#### Queue
-|  |
-| ------- |
-| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
-#### Divide and Conquer
-|  |
-| ------- |
-| [0169-majority-element](leetcode/0169-majority-element) |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Heap (Priority Queue)
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Bucket Sort
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Quickselect
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Boyer–Moore Majority Vote Algorithm
-|  |
-| ------- |
-| [0169-majority-element](leetcode/0169-majority-element) |
 #### Union-Find
 |  |
 | ------- |

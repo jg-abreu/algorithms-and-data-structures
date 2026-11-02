@@ -22,3 +22,20 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:</strong> Could you solve the problem in linear time and in <code>O(1)</code> space?
+
+## Topics
+
+Array, Hash Table, Sorting, Counting, Divide and Conquer, Boyer–Moore Majority Vote Algorithm
+
+Topic labels are preserved from the existing repository index.
+
+## Submission Statistics
+
+These values are preserved from the original LeetHub commit messages, matched to the source blobs in Git history. They are historical acceptance evidence, not a new verification on LeetCode. Submission IDs, platform submission links and submission dates were not recorded; Git commit dates are not substituted for them. Earlier versions link to their original source revision.
+
+<!-- SUBMISSIONS:START -->
+| Solution | Language | Status / evidence basis | Runtime | Memory | Runtime percentile | Memory percentile | Submission URL / ID | Submitted at | Evidence |
+|---|---|---|---|---|---|---|---|---|---|
+| [Earlier 0169-majority-element.py](https://github.com/jg-abreu/algorithms-and-data-structures/blob/24de30b3ceb6b098c25619d140477f72e0a74ae8/0169-majority-element/0169-majority-element.py) | Python | Accepted (LeetHub history) | 31 ms | 21.5 MB | 7.91% | 64.93% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/24de30b3ceb6b098c25619d140477f72e0a74ae8) |
+| [0169-majority-element.py](0169-majority-element.py) | Python | Accepted (LeetHub history) | 7 ms | 21.4 MB | 77.79% | 64.93% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/4929eb09126920b68f830dadf0fa6477b160a6b6) |
+<!-- SUBMISSIONS:END -->

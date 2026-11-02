@@ -20,3 +20,20 @@
 	<li><code>1 &lt;= ransomNote.length, magazine.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>ransomNote</code> and <code>magazine</code> consist of lowercase English letters.</li>
 </ul>
+
+
+## Topics
+
+Hash Table, String, Counting
+
+Topic labels are preserved from the existing repository index.
+
+## Submission Statistics
+
+These values are preserved from the original LeetHub commit messages, matched to the source blobs in Git history. They are historical acceptance evidence, not a new verification on LeetCode. Submission IDs, platform submission links and submission dates were not recorded; Git commit dates are not substituted for them. Earlier versions link to their original source revision.
+
+<!-- SUBMISSIONS:START -->
+| Solution | Language | Status / evidence basis | Runtime | Memory | Runtime percentile | Memory percentile | Submission URL / ID | Submitted at | Evidence |
+|---|---|---|---|---|---|---|---|---|---|
+| [0383-ransom-note.java](0383-ransom-note.java) | Java | Accepted (LeetHub history) | 20 ms | 47.5 MB | 7.39% | 7.16% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/0c199cc7548f0f62ca225a1baeddd23e4556967f) |
+<!-- SUBMISSIONS:END -->

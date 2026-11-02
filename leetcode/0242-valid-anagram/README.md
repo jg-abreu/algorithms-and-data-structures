@@ -27,3 +27,20 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> What if the inputs contain Unicode characters? How would you adapt your solution to such a case?</p>
+
+
+## Topics
+
+Hash Table, Sorting, String
+
+Topic labels are preserved from the existing repository index.
+
+## Submission Statistics
+
+These values are preserved from the original LeetHub commit messages, matched to the source blobs in Git history. They are historical acceptance evidence, not a new verification on LeetCode. Submission IDs, platform submission links and submission dates were not recorded; Git commit dates are not substituted for them. Earlier versions link to their original source revision.
+
+<!-- SUBMISSIONS:START -->
+| Solution | Language | Status / evidence basis | Runtime | Memory | Runtime percentile | Memory percentile | Submission URL / ID | Submitted at | Evidence |
+|---|---|---|---|---|---|---|---|---|---|
+| [0242-valid-anagram.java](0242-valid-anagram.java) | Java | Accepted (LeetHub history) | 19 ms | 46.7 MB | 10.27% | 15.49% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/f15da8b6c23d70160d46800c7eda1ff659a0edd4) |
+<!-- SUBMISSIONS:END -->
