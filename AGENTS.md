@@ -67,7 +67,7 @@ Use Easy/Medium/Hard only where officially provided. Count missing classificatio
 
 Update the root progress table and the problem table in the platform README. Show a relative problem link, known difficulty and existing languages. Sort numeric IDs numerically and composite IDs naturally by contest and index. Replace the platform table only between PROBLEMS:START and PROBLEMS:END.
 
-In the root README, update only the table between PROGRESS:START/PROGRESS:END and the index between PROBLEM-TOPICS:START/PROBLEM-TOPICS:END unless other prose changes were requested. Group the topic index by platform and official tag, alphabetize tags and sort problems by ID. Include one row per problem in each tag without duplicates. Official tags do not imply that the saved solution uses that algorithm. Problems without known tags remain in the platform table; report missing tags without inventing a classification.
+In the root README, update only the table between PROGRESS:START/PROGRESS:END unless other prose changes were requested. Do not add a topic index (such as "Solved Problems by Topic") to the root README: official topics live only in each problem README. Report missing tags without inventing a classification.
 
 Resolve relative links from the README containing them. Preserve badges, introductions and manually maintained sections. If markers are missing or duplicated, repair the affected block locally before updating it.
 

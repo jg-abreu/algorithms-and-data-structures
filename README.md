@@ -17,7 +17,6 @@ My personal log of algorithm and data structure practice. Every problem in this 
 | I want to… | Go to |
 |---|---|
 | See every solved problem | [LeetCode index](leetcode/README.md) |
-| Browse problems by topic | [Solved Problems by Topic](#-solved-problems-by-topic) |
 | See totals by platform and difficulty | [Progress](#-progress) |
 | Understand how solutions are recorded | [AGENTS.md](AGENTS.md) |
 
@@ -114,85 +113,3 @@ Platform READMEs keep the problem indexes; the totals below are recalculated fro
 | [atcoder](atcoder/README.md) | 0 | 0 | 0 | 0 | 0 |
 | **Total** | **9** | **6** | **3** | **0** | **0** |
 <!-- PROGRESS:END -->
-
-## 📊 Solved Problems by Topic
-
-The index below groups problems by their official platform topics. A topic label does not necessarily describe the algorithm used by the saved solution.
-
----
-
-<!-- PROBLEM-TOPICS:START -->
-### LeetCode
-#### Array
-|  |
-| ------- |
-| [0001-two-sum](leetcode/0001-two-sum) |
-| [0049-group-anagrams](leetcode/0049-group-anagrams) |
-| [0128-longest-consecutive-sequence](leetcode/0128-longest-consecutive-sequence) |
-| [0169-majority-element](leetcode/0169-majority-element) |
-| [0217-contains-duplicate](leetcode/0217-contains-duplicate) |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Boyer–Moore Majority Vote Algorithm
-|  |
-| ------- |
-| [0169-majority-element](leetcode/0169-majority-element) |
-#### Bucket Sort
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Counting
-|  |
-| ------- |
-| [0169-majority-element](leetcode/0169-majority-element) |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-| [0383-ransom-note](leetcode/0383-ransom-note) |
-| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
-#### Divide and Conquer
-|  |
-| ------- |
-| [0169-majority-element](leetcode/0169-majority-element) |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Hash Table
-|  |
-| ------- |
-| [0001-two-sum](leetcode/0001-two-sum) |
-| [0049-group-anagrams](leetcode/0049-group-anagrams) |
-| [0128-longest-consecutive-sequence](leetcode/0128-longest-consecutive-sequence) |
-| [0169-majority-element](leetcode/0169-majority-element) |
-| [0217-contains-duplicate](leetcode/0217-contains-duplicate) |
-| [0242-valid-anagram](leetcode/0242-valid-anagram) |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-| [0383-ransom-note](leetcode/0383-ransom-note) |
-| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
-#### Heap (Priority Queue)
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Queue
-|  |
-| ------- |
-| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
-#### Quickselect
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### Sorting
-|  |
-| ------- |
-| [0049-group-anagrams](leetcode/0049-group-anagrams) |
-| [0169-majority-element](leetcode/0169-majority-element) |
-| [0217-contains-duplicate](leetcode/0217-contains-duplicate) |
-| [0242-valid-anagram](leetcode/0242-valid-anagram) |
-| [0347-top-k-frequent-elements](leetcode/0347-top-k-frequent-elements) |
-#### String
-|  |
-| ------- |
-| [0049-group-anagrams](leetcode/0049-group-anagrams) |
-| [0242-valid-anagram](leetcode/0242-valid-anagram) |
-| [0383-ransom-note](leetcode/0383-ransom-note) |
-| [0387-first-unique-character-in-a-string](leetcode/0387-first-unique-character-in-a-string) |
-#### Union-Find
-|  |
-| ------- |
-| [0128-longest-consecutive-sequence](leetcode/0128-longest-consecutive-sequence) |
-<!-- PROBLEM-TOPICS:END -->
