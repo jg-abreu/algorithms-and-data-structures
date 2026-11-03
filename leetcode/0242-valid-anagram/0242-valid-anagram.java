@@ -5,20 +5,20 @@ class Solution {
             return false;
         }
 
-        HashMap<Character, Integer> sContains = new HashMap<>();
+        HashMap<Character, Integer> sCount = new HashMap<>();
 
-        HashMap<Character, Integer> tContains = new HashMap<>();
+        HashMap<Character, Integer> tCount = new HashMap<>();
         
         for (int i = 0; i < s.length(); i ++) {
 
             char letter = s.charAt(i);
             
-            if (sContains.containsKey(letter)){
-                int count = sContains.get(letter);
+            if (sCount.containsKey(letter)){
+                int count = sCount.get(letter);
                 count += 1;
-                sContains.put(letter, count);
+                sCount.put(letter, count);
             } else {
-                sContains.put(letter, 1);
+                sCount.put(letter, 1);
             }
         }
 
@@ -26,15 +26,15 @@ class Solution {
 
             char letter = t.charAt(i);
             
-            if (tContains.containsKey(letter)){
-                int count = tContains.get(letter);
+            if (tCount.containsKey(letter)){
+                int count = tCount.get(letter);
                 count += 1;
-                tContains.put(letter, count);
+                tCount.put(letter, count);
             } else {
-                tContains.put(letter, 1);
+                tCount.put(letter, 1);
             }
         }
 
-        return sContains.equals(tContains);
+        return sCount.equals(tCount);
     }
 }
