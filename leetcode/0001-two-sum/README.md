@@ -52,11 +52,14 @@ Rows marked "LeetHub history" are preserved from the original LeetHub commit mes
 
 The 2026-11-09 Java and Python rows come from João's screenshots of the LeetCode submission pages (Accepted, 66/66 test cases each) for the same source code already saved here; the submitted times are the ones displayed by LeetCode in his local timezone.
 
+The 2026-11-05 Java row comes from João's screenshot of the LeetCode submission page (Accepted, 66/66 test cases) and the source he provided; it replaced the earlier nested-loop Java solution, so the earlier Java rows link to that source revision.
+
 <!-- SUBMISSIONS:START -->
 | Solution | Language | Status / evidence basis | Runtime | Memory | Runtime percentile | Memory percentile | Submission URL / ID | Submitted at | Evidence |
 |---|---|---|---|---|---|---|---|---|---|
-| [0001-two-sum.java](0001-two-sum.java) | Java | Accepted (LeetHub history) | 45 ms | 46.2 MB | 26.81% | 99.37% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/3bbc953f72b5bdad1086bf95926139c500434829) |
+| [0001-two-sum.java @ 6c4aec2](https://github.com/jg-abreu/algorithms-and-data-structures/blob/6c4aec21038bbd27c2e5c94b4f361c3e283b0f48/leetcode/0001-two-sum/0001-two-sum.java) | Java | Accepted (LeetHub history) | 45 ms | 46.2 MB | 26.81% | 99.37% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/3bbc953f72b5bdad1086bf95926139c500434829) |
 | [0001-two-sum.py](0001-two-sum.py) | Python | Accepted (LeetHub history) | 1736 ms | 19.7 MB | 19.09% | 83.17% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/123bdf57305ddf99ab1d8c6437a5ad8758f1d637) |
-| [0001-two-sum.java](0001-two-sum.java) | Java | Accepted (screenshot) | 45 ms | 46.61 MB | 27.82% | 77.29% | [2192390640](https://leetcode.com/problems/two-sum/submissions/2192390640/) | 2026-11-09T06:42-03:00 | Screenshot provided by João |
+| [0001-two-sum.java @ 6c4aec2](https://github.com/jg-abreu/algorithms-and-data-structures/blob/6c4aec21038bbd27c2e5c94b4f361c3e283b0f48/leetcode/0001-two-sum/0001-two-sum.java) | Java | Accepted (screenshot) | 45 ms | 46.61 MB | 27.82% | 77.29% | [2192390640](https://leetcode.com/problems/two-sum/submissions/2192390640/) | 2026-11-09T06:42-03:00 | Screenshot provided by João |
 | [0001-two-sum.py](0001-two-sum.py) | Python | Accepted (screenshot) | 1759 ms | 19.51 MB | 14.32% | 97.12% | [2192390745](https://leetcode.com/problems/two-sum/submissions/2192390745/) | 2026-11-09T06:42-03:00 | Screenshot provided by João |
+| [0001-two-sum.java](0001-two-sum.java) | Java | Accepted (screenshot) | 2 ms | 46.62 MB | 99.41% | 76.56% | [2190145515](https://leetcode.com/problems/two-sum/submissions/2190145515/) | 2026-11-05T12:09-03:00 | Screenshot provided by João |
 <!-- SUBMISSIONS:END -->
