@@ -51,10 +51,13 @@ Topic labels are preserved from the existing repository index.
 
 ## Submission Statistics
 
-These values are preserved from the original LeetHub commit messages, matched to the source blobs in Git history. They are historical acceptance evidence, not a new verification on LeetCode. Submission IDs, platform submission links and submission dates were not recorded; Git commit dates are not substituted for them. Earlier versions link to their original source revision.
+Rows marked "LeetHub history" are preserved from the original LeetHub commit messages, matched to the source blobs in Git history. They are historical acceptance evidence, not a new verification on LeetCode; their submission IDs, platform submission links and submission dates were not recorded, and Git commit dates are not substituted for them.
+
+The 2026-11-04 Python row comes from João's screenshot of the LeetCode submission page (Accepted, 130/130 test cases); the submitted time is the one displayed by LeetCode in his local timezone.
 
 <!-- SUBMISSIONS:START -->
 | Solution | Language | Status / evidence basis | Runtime | Memory | Runtime percentile | Memory percentile | Submission URL / ID | Submitted at | Evidence |
 |---|---|---|---|---|---|---|---|---|---|
 | [0049-group-anagrams.java](0049-group-anagrams.java) | Java | Accepted (LeetHub history) | 7 ms | 49.3 MB | 72.6% | 92.08% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/3f98ef8e4d029170d782c00da7f972b2ab8ec6e5) |
+| [0049-group-anagrams.py](0049-group-anagrams.py) | Python | Accepted (screenshot) | 11 ms | 21.91 MB | 85.28% | 75.28% | [2189745704](https://leetcode.com/problems/group-anagrams/submissions/2189745704/) | 2026-11-04T23:37-03:00 | Screenshot provided by João |
 <!-- SUBMISSIONS:END -->
