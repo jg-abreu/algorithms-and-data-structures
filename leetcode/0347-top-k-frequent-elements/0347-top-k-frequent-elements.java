@@ -1,36 +1,45 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
 
-        // 1. Create the HashMap (number -> frequency)
-        Map<Integer, Integer> c = new HashMap<>();
+        // 1. Contar quantas vezes cada número aparece
+        HashMap<Integer, Integer> count = new HashMap<>();
 
-        // 2. Iterate over nums and count each number in the map
-        //    (for-each + getOrDefault)
-
-        for (int num : nums) {
-            c.put(num, c.getOrDefault(num, 0) + 1);
+        for (int n : nums) {
+            if (count.containsKey(n)) {
+                count.put(n, count.get(n) + 1);   // já existe: soma 1
+            } else {
+                count.put(n, 1);                  // primeira vez: começa em 1
+            }
         }
 
-        // 3. Move the map's entries into a List
-        List<Map.Entry<Integer, Integer>> l = new ArrayList<>(c.entrySet());
+        // 2. Criar os baldes (um para cada frequência possível, de 0 até n)
+        ArrayList<ArrayList<Integer>> buckets = new ArrayList<>();
 
-        // 4. Sort the list by frequency, highest to lowest
-
-        l.sort((a, b) -> b.getValue() - a.getValue());
-
-        // 5. Create the result int[] with size k
-
-        int[] r = new int[k];
-
-        // 6. Fill the result with the keys of the first k entries in the list
-        //    (for loop from 0 to k)
-
-        for (int i = 0; i < k; i++) {
-            r[i] = l.get(i).getKey();
+        for (int i = 0; i <= nums.length; i++) {
+            buckets.add(new ArrayList<>());
         }
 
-        // 7. Return the result
+        // Colocar cada número no balde da sua frequência
+        for (int number : count.keySet()) {
+            int frequency = count.get(number);
+            buckets.get(frequency).add(number);
+        }
 
-        return r;
+        // 3. Pegar os números, do balde maior para o menor
+        int[] result = new int[k];
+        int position = 0;
+
+        for (int i = buckets.size() - 1; i > 0; i--) {
+            for (int number : buckets.get(i)) {
+                result[position] = number;
+                position++;
+
+                if (position == k) {
+                    return result;
+                }
+            }
+        }
+
+        return result;
     }
 }

@@ -47,10 +47,13 @@ Topic labels are preserved from the existing repository index.
 
 ## Submission Statistics
 
-These values are preserved from the original LeetHub commit messages, matched to the source blobs in Git history. They are historical acceptance evidence, not a new verification on LeetCode. Submission IDs, platform submission links and submission dates were not recorded; Git commit dates are not substituted for them. Earlier versions link to their original source revision.
+Rows marked "LeetHub history" are preserved from the original LeetHub commit messages, matched to the source blobs in Git history. They are historical acceptance evidence, not a new verification on LeetCode; their submission IDs, platform submission links and submission dates were not recorded, and Git commit dates are not substituted for them. Earlier versions link to their original source revision.
+
+The 2026-11-06 Java row comes from João's screenshot of the LeetCode submission page (Accepted, 26/26 test cases); the submitted time is the one displayed by LeetCode in his local timezone.
 
 <!-- SUBMISSIONS:START -->
 | Solution | Language | Status / evidence basis | Runtime | Memory | Runtime percentile | Memory percentile | Submission URL / ID | Submitted at | Evidence |
 |---|---|---|---|---|---|---|---|---|---|
-| [0347-top-k-frequent-elements.java](0347-top-k-frequent-elements.java) | Java | Accepted (LeetHub history) | 16 ms | 47.1 MB | 42.29% | 89.84% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/68d7bbb2ab78176a3e23ddd0ab5f3ddec957dbec) |
+| [Earlier 0347-top-k-frequent-elements.java](https://github.com/jg-abreu/algorithms-and-data-structures/blob/68d7bbb2ab78176a3e23ddd0ab5f3ddec957dbec/0347-top-k-frequent-elements/0347-top-k-frequent-elements.java) | Java | Accepted (LeetHub history) | 16 ms | 47.1 MB | 42.29% | 89.84% | — | — | [LeetHub commit](https://github.com/jg-abreu/algorithms-and-data-structures/commit/68d7bbb2ab78176a3e23ddd0ab5f3ddec957dbec) |
+| [0347-top-k-frequent-elements.java](0347-top-k-frequent-elements.java) | Java | Accepted (screenshot) | 13 ms | 51.27 MB | 79.81% | 5.35% | [2190902077](https://leetcode.com/problems/top-k-frequent-elements/submissions/2190902077/) | 2026-11-06T15:32-03:00 | Screenshot provided by João |
 <!-- SUBMISSIONS:END -->
