@@ -107,9 +107,9 @@ Platform READMEs keep the problem indexes; the totals below are recalculated fro
 <!-- PROGRESS:START -->
 | Platform | Solved | Easy | Medium | Hard | Unclassified |
 |---|---:|---:|---:|---:|---:|
-| [leetcode](leetcode/README.md) | 10 | 6 | 4 | 0 | 0 |
+| [leetcode](leetcode/README.md) | 11 | 6 | 5 | 0 | 0 |
 | [cses](cses/README.md) | 0 | 0 | 0 | 0 | 0 |
 | [codeforces](codeforces/README.md) | 0 | 0 | 0 | 0 | 0 |
 | [atcoder](atcoder/README.md) | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **10** | **6** | **4** | **0** | **0** |
+| **Total** | **11** | **6** | **5** | **0** | **0** |
 <!-- PROGRESS:END -->
