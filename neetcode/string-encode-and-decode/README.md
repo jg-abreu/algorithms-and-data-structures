@@ -73,11 +73,13 @@ List&lt;String&gt; decoded_strs = solution.decode(encoded_string);
 
 <p><strong>Follow up:</strong> Could you write a generalized algorithm to work on any possible set of characters?</p>
 
-Source: [NeetCode — Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode). The statement was provided by João from the NeetCode problem page, and the follow-up comes from his screenshot of the same page. This problem is LeetCode Premium-only (LeetCode 271), so it was solved in the NeetCode editor.
+Source: [NeetCode — Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode). The statement and follow-up were checked against the NeetCode problem page. This problem is LeetCode Premium-only (LeetCode 271), so it was solved in the NeetCode editor.
 
 ## Topics
 
-Not recorded: the NeetCode topic tags were not provided.
+Array, String, Design
+
+Topic labels are from the NeetCode problem page.
 
 ## Submission Statistics
 
