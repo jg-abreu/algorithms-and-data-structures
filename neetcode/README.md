@@ -7,5 +7,5 @@ Individual submission statistics and evidence live in each problem README. Each 
 <!-- PROBLEMS:START -->
 | Problem | Difficulty | Languages |
 |---|---|---|
-| No problems recorded yet | — | — |
+| [string-encode-and-decode](string-encode-and-decode/README.md) | medium | java |
 <!-- PROBLEMS:END -->
