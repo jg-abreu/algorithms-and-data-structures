@@ -24,11 +24,14 @@ For the statement, difficulty and topics, consult the official page first. If un
 
 The platform directories are:
 - leetcode/: public ID padded to at least four digits plus the official slug, such as 0001-two-sum.
+- neetcode/: the problem slug from the NeetCode URL (neetcode.io/problems/<slug>), such as string-encode-and-decode. NeetCode has no numeric public ID; the slug is the identifier.
 - cses/: numeric task ID plus the kebab-case title, such as 1068-weird-algorithm.
 - codeforces/: contest ID, official problem index and title, such as 4-a-watermelon. Preserve the full index, including A1/A2, lowercased in paths.
 - atcoder/: full official task ID plus the title, such as abc086-a-product. Use the task ID from the URL to avoid collisions across contests.
 
 Each problem contains only README.md and source files named after its directory: <slug>.java, <slug>.py or <slug>.cpp. Add only languages actually submitted. For Java, preserve the accepted class name and submission format even when the filename differs from a conventional local Java project.
+
+Choose leetcode/ whenever the problem can be submitted on LeetCode. Use neetcode/ only for problems that are LeetCode Premium-only and were accepted in the NeetCode editor. Do not record the same problem in both directories; if a problem in neetcode/ is later accepted on LeetCode, ask João before moving or duplicating it. Use the difficulty displayed by NeetCode, and show metrics NeetCode does not display as —.
 
 Course exercises and independent C++ study belong in daily-learning-log. Do not create cpp/ here.
 

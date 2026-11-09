@@ -10,13 +10,13 @@
 
 My personal log of algorithm and data structure practice. Every problem in this repository was **solved by me and accepted on the platform**, and is stored with its official statement, the exact code I submitted and its submission statistics.
 
-> I pick problems from [NeetCode](https://neetcode.io/) and solve them on [LeetCode](https://leetcode.com/) in Java and Python. C++ and competitive programming platforms (CSES, Codeforces, AtCoder) come next.
+> I pick problems from [NeetCode](https://neetcode.io/) and solve them on [LeetCode](https://leetcode.com/) in Java and Python. Problems that are LeetCode Premium-only are solved in the NeetCode editor and recorded under [neetcode](neetcode/README.md). C++ and competitive programming platforms (CSES, Codeforces, AtCoder) come next.
 
 ## 🔎 Quick Navigation
 
 | I want to… | Go to |
 |---|---|
-| See every solved problem | [LeetCode index](leetcode/README.md) |
+| See every solved problem | [LeetCode index](leetcode/README.md) · [NeetCode index](neetcode/README.md) |
 | See totals by platform and difficulty | [Progress](#-progress) |
 | Understand how solutions are recorded | [AGENTS.md](AGENTS.md) |
 
@@ -73,6 +73,13 @@ algorithms-and-data-structures/
 │       ├── <problem-id>-<problem-name>.java
 │       ├── <problem-id>-<problem-name>.py
 │       └── <problem-id>-<problem-name>.cpp
+├── neetcode/
+│   ├── README.md
+│   └── <neetcode-slug>/
+│       ├── README.md
+│       ├── <neetcode-slug>.java
+│       ├── <neetcode-slug>.py
+│       └── <neetcode-slug>.cpp
 ├── cses/
 │   ├── README.md
 │   └── <task-id>-<problem-name>/
@@ -108,6 +115,7 @@ Platform READMEs keep the problem indexes; the totals below are recalculated fro
 | Platform | Solved | Easy | Medium | Hard | Unclassified |
 |---|---:|---:|---:|---:|---:|
 | [leetcode](leetcode/README.md) | 11 | 6 | 5 | 0 | 0 |
+| [neetcode](neetcode/README.md) | 0 | 0 | 0 | 0 | 0 |
 | [cses](cses/README.md) | 0 | 0 | 0 | 0 | 0 |
 | [codeforces](codeforces/README.md) | 0 | 0 | 0 | 0 | 0 |
 | [atcoder](atcoder/README.md) | 0 | 0 | 0 | 0 | 0 |
