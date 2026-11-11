@@ -8,6 +8,7 @@ Individual submission statistics and evidence live in each problem README. Each 
 | Problem | Difficulty | Languages |
 |---|---|---|
 | [0001-two-sum](0001-two-sum/README.md) | easy | java, py |
+| [0020-valid-parentheses](0020-valid-parentheses/README.md) | easy | java |
 | [0036-valid-sudoku](0036-valid-sudoku/README.md) | medium | java |
 | [0049-group-anagrams](0049-group-anagrams/README.md) | medium | java, py |
 | [0128-longest-consecutive-sequence](0128-longest-consecutive-sequence/README.md) | medium | java |
