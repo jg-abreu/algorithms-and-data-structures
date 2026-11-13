@@ -21,4 +21,5 @@ Individual submission statistics and evidence live in each problem README. Each 
 | [0347-top-k-frequent-elements](0347-top-k-frequent-elements/README.md) | medium | java |
 | [0383-ransom-note](0383-ransom-note/README.md) | easy | java |
 | [0387-first-unique-character-in-a-string](0387-first-unique-character-in-a-string/README.md) | easy | java |
+| [0739-daily-temperatures](0739-daily-temperatures/README.md) | medium | java |
 <!-- PROBLEMS:END -->
