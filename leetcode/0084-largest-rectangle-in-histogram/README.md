@@ -35,10 +35,10 @@ Topic labels and difficulty are taken from the official LeetCode problem page.
 
 ## Submission Statistics
 
-The Java row comes from João's screenshot of the LeetCode submission page (Accepted) and the source he provided. The screenshot does not show the submission date or the test case count, so the date is recorded as —.
+The Java row comes from João's screenshot of the LeetCode submission page (Accepted) and the source he provided. The screenshot does not show the submission time or the test case count; the submission date was stated by João (submitted on 2026-11-15, time not recorded).
 
 <!-- SUBMISSIONS:START -->
 | Solution | Language | Status / evidence basis | Runtime | Memory | Runtime percentile | Memory percentile | Submission URL / ID | Submitted at | Evidence |
 |---|---|---|---|---|---|---|---|---|---|
-| [0084-largest-rectangle-in-histogram.java](0084-largest-rectangle-in-histogram.java) | Java | Accepted (screenshot) | 110 ms | 77.38 MB | 14.49% | 71.67% | [2196935089](https://leetcode.com/problems/largest-rectangle-in-histogram/submissions/2196935089/) | — | Screenshot provided by João |
+| [0084-largest-rectangle-in-histogram.java](0084-largest-rectangle-in-histogram.java) | Java | Accepted (screenshot) | 110 ms | 77.38 MB | 14.49% | 71.67% | [2196935089](https://leetcode.com/problems/largest-rectangle-in-histogram/submissions/2196935089/) | 2026-11-15 | Screenshot provided by João |
 <!-- SUBMISSIONS:END -->
