@@ -11,6 +11,7 @@ Individual submission statistics and evidence live in each problem README. Each 
 | [0020-valid-parentheses](0020-valid-parentheses/README.md) | easy | java |
 | [0036-valid-sudoku](0036-valid-sudoku/README.md) | medium | java |
 | [0049-group-anagrams](0049-group-anagrams/README.md) | medium | java, py |
+| [0084-largest-rectangle-in-histogram](0084-largest-rectangle-in-histogram/README.md) | hard | java |
 | [0128-longest-consecutive-sequence](0128-longest-consecutive-sequence/README.md) | medium | java |
 | [0150-evaluate-reverse-polish-notation](0150-evaluate-reverse-polish-notation/README.md) | medium | java |
 | [0155-min-stack](0155-min-stack/README.md) | medium | java |
