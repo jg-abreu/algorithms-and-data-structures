@@ -16,6 +16,7 @@ Individual submission statistics and evidence live in each problem README. Each 
 | [0128-longest-consecutive-sequence](0128-longest-consecutive-sequence/README.md) | medium | java |
 | [0150-evaluate-reverse-polish-notation](0150-evaluate-reverse-polish-notation/README.md) | medium | java |
 | [0155-min-stack](0155-min-stack/README.md) | medium | java |
+| [0167-two-sum-ii-input-array-is-sorted](0167-two-sum-ii-input-array-is-sorted/README.md) | medium | java |
 | [0169-majority-element](0169-majority-element/README.md) | easy | py |
 | [0217-contains-duplicate](0217-contains-duplicate/README.md) | easy | java, py |
 | [0238-product-of-array-except-self](0238-product-of-array-except-self/README.md) | medium | java |
